@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Jura&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+body{
+    font-size:100%;
+    padding-top: 0.5%;
+	background: linear-gradient(180deg, #000000 11.09%, #FFFFFF 34.23%, #000000 58.65%);
+} 
+
+.cabecalho{
+    display: block;
+	max-width:1200px;
+	min-width:none;
+	margin:auto;
+}
+
+.secao-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding-top:25px;
+	gap:30px;
+}
+
+.secao-1-foto{
+	height:200px;
+}
+
+.secao-1-texto{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	max-width:500px;
+	min-width:none;
+}
+.secao-1-texto-titulo{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+.secao-1-texto-paragrafo{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:400;
+	font-size: 18px;
+}
+
+.secao-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: space-between;
+	max-width:1200px;
+	margin:auto;
+	padding: 42px 0px;
+	margin-bottom:47px;
+}
+
+.secao-2-figura{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+	align-items:center;
+	width:260px;
+	height:270px;
+	gap:10px;
+}
+
+.secao-2-figura-img{
+	width:250px;
+	height:250px;
+	background-color:white;
+	border-radius:10px;
+}
+figcaption{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:300;
+	font-size: 22px;
+	color:white;
+}
+
+.rodape{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content:center;
+	height:170px;
+	gap:15px;
+	padding:auto;
+	background-color:#ECECEC;	
+}
+
+.rodape-logos{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	gap:28px;
+}
+
+.rodape-logo{
+	width:49px;
+	height:49px;
+}
+
+.rodape-texto{
+	font-family: 'Jura', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}	
+
+	
