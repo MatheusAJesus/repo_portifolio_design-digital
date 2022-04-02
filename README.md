@@ -13,7 +13,7 @@
 <p>Na pasta <b>"templates"</b> encontra-se os arquivos HTML das páginas do sistema.</p>
 
 <h3>static</h3>
-<p>Na pasta <b>"static"</b> encontra-se as imagens utilizadas no sistema e também a pasta "css".</p>
+<p>Na pasta <b>"static"</b> encontra-se as imagens utilizadas no sistema e também a pasta <b>"css"</b>.</p>
 
 <h3>css</h3>
 <p>Na pasta <b>"css"</b> contém os arquivos CSS de estilização.</p>
