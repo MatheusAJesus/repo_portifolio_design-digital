@@ -5,43 +5,67 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="../static/css/estilo2.css">
+		<link rel="stylesheet" href="../static/css/bootstrap/css/bootstrap.min.css">
 		<title>Biografia</title>
 	</head>
 	<body>
 		<header class="cabecalho">
 			<nav class="cabecalho-nav">
-				<img src="../static/images/logo preta.png" alt="logo-marca-preta">
-				<a class="cabecalho-nav-texto" href="home.html">Home</a>
-				<a class="cabecalho-nav-texto" href="projetos.html">Projetos</a>
-				<a class="cabecalho-nav-texto" href="contatos.html">Contatos</a>
+				<a href="home.html"><img src="../static/images/logo.svg" alt="logo matheus albernaz"></a>
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<hr class="hr_black">
+					<a href="home.html">Home</a>
+					<hr class="hr_black">
+					<a href="projetos.html">Projetos</a>
+					<hr class="hr_black">           
+					<a href="contatos.html">Contato</a>
+					<hr class="hr_black">
+				</div>
+				<span class="icon_nav_style" onclick="openNav()">&#9776;</span>
+		
+				<script>
+					function openNav() {
+					document.getElementById("mySidenav").style.width = "250px";
+					}
+		
+					function closeNav() {
+					document.getElementById("mySidenav").style.width = "0";
+					}
+				</script>
 			</nav>
 		</header>
-		<section class="secao-1">
-			<div class="secao-1-texto">
-				<h1 class="secao-1-texto-titulo"><b>Biografia</b></h1>
-				<br>
-				<p class="secao-1-texto-paragrafo">"Texto sobre minha biografia, família, informações educacionais, hobbies,etc"</p>
-			</div>
-		</section>
-		<section class="secao-2">
-			<figure class="secao-2-figura">
-				<img class="secao-2-figura-img" src="" alt="foto-biografia">
-			</figure>
-			<figure class="secao-2-figura">
-				<img class="secao-2-figura-img" src="" alt="foto-biografia">
-			</figure>
-			<figure class="secao-2-figura">
-				<img class="secao-2-figura-img" src="" alt="foto-biografia">
-			</figure>
-		</section>
+		<main>
+			<section class="secao-1">
+				<div class="secao-1-texto">
+					<h1 class="secao-1-texto-titulo"><b>Biografia</b></h1>
+					<br>
+					<p class="secao-1-texto-paragrafo">Natural de Caçapava, interior do Estado de São Paulo, vim ao mundo na data 31/12/1990. Cresci com minha mãe Elisabete, mãe solteira, a "Bety do Salão". Sempre estudando em escola pública, ingressei aos 15 anos na Etec Machado de Assis, mais conhecida como Industrial. Lá cursei o Ensino Médio e Técnico em Mecânica, me formando em 2008. Em 2009 comecei minha vida profissional, em uma empresa de Alarmes em São José dos Campos. Desde criança sempre desmontando e montando (as vezes não montava mais) quase tudo em casa e curioso em saber como as coisas funcionavam. </p>
+					<p class="secao-1-texto-paragrafo">Em 2010 entrei para a industria, onde conheci a área de manutenção da empresa, despertando aí a vontade de cursar o Técnico em Eletroeletrônica pelo SENAI Santos Dumont, concluído em 2013, já com família formada. Em Fevereiro me casei e fui morar com minha esposa, Maiara. Neste mesmo ano nascia meu primeiro filho, Samuel. Em 2018, depois de várias tentativas concluí um projeto idealizado lá em 2013, construir minha própria Router CNC para usinagem de madeiras. Então pudemos, eu e minha esposa, retornar com nossa empresa de artesanatos, com as atividades pausadas desde 2015, ano em que nascia minha filha, Ana Clara, nossa batalhadora, que enfrentou 17 dias de UTI Neo-natal, devido ao seu nascimento prematuro. Desde então, trabalhamos na Sams Art, nossa empresa de artesanatos em MDF, madeira e acrílico.Em meio a tudo isso nasce meu terceiro filho, Miguel, em 2019. </p>
+					<p class="secao-1-texto-paragrafo">Em paralelo com meu trabalho na fábrica, decidi então, em 2021, iniciar meus estudos na área de Técnlogia, logo após minha mãe falecer em decorrência de um tumor cerebral, o qual existia desde de 2016. Em 2022 me encontro matriculado na FATEC Prof Jessen Vidal, cursando Desenvolvimento de Software Multiplataforma. Focado em me desenvolver no ramo, busco continuamente o aprendizado com excelência.</p>
+
+				</div>
+			</section>
+			<section class="secao-2">
+				<figure class="secao-2-figura">
+					<img class="secao-2-figura-img" src="../static/images/infância.jpg" alt="foto-biografia">
+				</figure>
+				<figure class="secao-2-figura">
+					<img class="secao-2-figura-img" src="../static/images/mae.jpg" alt="foto-biografia">
+				</figure>
+				<figure class="secao-2-figura">
+					<img class="secao-2-figura-img" src="../static/images/familia.jpg" alt="foto-biografia">
+				</figure>
+			</section>
+		</main>
 		<footer class="rodape">
-		<nav class="rodape-logos">
-			<img class="rodape-logo" src="../static/images/linkedin.svg" alt="logo-linkeind">
-			<img class="rodape-logo" src="../static/images/github.svg" alt="logo-github">
-			<img class="rodape-logo" src="../static/images/instagram.svg" alt="logo-instagram">
-			<img class="rodape-logo" src="../static/images/facebook.svg" alt="logo-facebook">
-		</nav>
-			<h4 class="rodape-texto">Matheus Albernaz&copy;</h4>
+			<nav class="rodape-logos">
+				<a href="https://www.linkedin.com/in/matheus-augusto-de-jesus-albernaz-918536216/" Target="_blank"><img class="rodape-logo" src="../static/images/linkedin.svg" alt="logo-linkeind"></a>
+				<a href="https://github.com/MatheusAJesus" Target="_blank"><img class="rodape-logo" src="../static/images/github.svg" alt="logo-github"></a>
+				<a href="https://www.instagram.com/mhs_jesus_woodcrafter/" Target="_blank"><img class="rodape-logo" src="../static/images/instagram.svg" alt="logo-instagram"></a>
+				<a href="https://www.facebook.com/samsmatheus" Target="_blank"><img class="rodape-logo" src="../static/images/facebook.svg" alt="logo-facebook"></a>
+			</nav>
+			<h4 class="rodape-texto">Desenvolvido por Matheus Albernaz&copy;</h4>
 		</footer>
 	</body>
 </html>
