@@ -13,10 +13,16 @@
 <p>Na pasta <b>"templates"</b> encontra-se os arquivos HTML das páginas do sistema.</p>
 
 <h3>static</h3>
-<p>Na pasta <b>"static"</b> encontra-se as imagens utilizadas no sistema e também a pasta <b>"css"</b>.</p>
+<p>Na pasta <b>"static"</b> encontra-se a pasta <b>images</b> com as imagens utilizadas no sistema e também a pasta <b>"css"</b>.</p>
 
 <h3>css</h3>
 <p>Na pasta <b>"css"</b> contém os arquivos CSS de estilização.</p>
+
+<p>Também contém a pasta <b>bootstrap</b> que contém outras 2 pastas, <b>"css"</b> e <b>js</b>, que contém arquivos de estilização CSS e Javascript respectivamente</p>
+
+
+# Executando a aplicação <a id="configuracoes"></a>
+- Primeiramente, clique em `tag` e aparecerá um arquivo *.zip* nominado v2.0.1. Clique para baixá-lo.
 
 ## Rodar a aplicação <a id="rodar-app"></a>
 
@@ -37,7 +43,7 @@ py -3 -m venv venv
 ```
 .\venv\Scripts\activate
 ```
-6. Então, é só instalar o *requirements.txt*: 
+6. Então, é só instalar o flask: 
 ```
 pip install flask
 ```
