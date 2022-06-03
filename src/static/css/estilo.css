@@ -15,7 +15,6 @@ html{
 body{
 	display:flex;
 	flex-direction: column;
-	background-color: #ffffff ;
 	min-height: 100%;
 	background-image: url(../images/Circuit\ Board.svg);
 } 
@@ -26,6 +25,11 @@ main{
 	align-items: center;
 	min-height: 100%;
 	padding: 15px;
+}
+
+.link{
+	text-decoration: none;
+	color:#99c2ffff;
 }
 
 .cabecalho{
@@ -54,15 +58,6 @@ main{
 	gap:15px;
 }
 
-.secao-1-foto{
-	height:200px;
-}
-
-@media only screen and (max-width: 500px) {
-	.secao-1-foto{
-		height: 150px;
-	}
-}
 .secao-1-texto{
 	display:flex;
 	flex-direction:column;
@@ -133,6 +128,8 @@ main{
 	height:250px;
 	background-color:white;
 	border-radius: 10px;
+	color:#091D34;
+	text-decoration: none;
 }
 
 .secao-2-figura-img:hover{
@@ -168,7 +165,7 @@ figcaption{
 	gap:15px;
 	padding: 20px;
 	background-color:#091D34;
-	color: #609CE1;
+	color: #99c2ffff;
 }
 
 .rodape-logos{
@@ -179,8 +176,8 @@ figcaption{
 }
 
 .rodape-logo{
-	width:35px;
-	height:35px;
+	width:40px;
+	height:40px;
 }
 
 .rodape-texto{

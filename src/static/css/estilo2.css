@@ -15,7 +15,6 @@ html{
 body{
 	display:flex;
 	flex-direction: column;
-	background-color:#ffffff;
 	min-height: 100%;
 	background-image: url(../images/Circuit\ Board.svg);
 }
@@ -25,6 +24,11 @@ main{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.link{
+	text-decoration: none;
+	color:#99c2ffff;
 }
 
 .cabecalho{
@@ -93,12 +97,12 @@ main{
 .icon_nav_style{
 	font-size: 35px;
 	cursor: pointer;
-	color: #609CE1;
+	color: #99c2ffff;
 	padding-bottom: 0.4%;
 }
 
 .icon_nav_style:hover{
-	color: #8499b1;
+	color: #d3dfec;
 }
 
 .hr_black{
@@ -386,7 +390,7 @@ main{
 	height: 150px;
 	gap:15px;
 	background-color:#091D34;
-	color: #609CE1;
+	color: #99c2ffff;
 }
 
 .rodape-logos{
@@ -397,8 +401,8 @@ main{
 }
 
 .rodape-logo{
-	width:35px;
-	height:35px;
+	width: 40px;
+	height:40px;
 }
 
 .rodape-texto{
