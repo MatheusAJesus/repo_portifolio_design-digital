@@ -3,6 +3,8 @@
 
 <p>Esta aplicação já está implantada no Heroku, para visualizar acesse https://portifoliomts.herokuapp.com/ .</p>
 
+Ou acesse pelo GitHub Pages https://matheusajesus.github.io/repo_portifolio_design-digital/
+
 <h2>Estrutura de pastas</h2>
 <p>Esta é a estrutura de pastas atual, que possibilita a implatação no Heroku, mas também possibilita rodar a aplicação localmente.</p> 
 <p>A raiz de nome <b>repo_portifolio_design-digital</b> contém os arquivos <b>.gitignore</b>, que ignora os arquivos criados pela implatação local(venv). Contém também o arquivo <b>LICENSE</b>, com dados sobre a licença desta aplicação, o arquivo <b>Procfile</b> com o código utilizado pelo <b>Heroku</b> para a implatação, o <b>README</b>, que contém estas informações que está lendo, o <b>app.py</b> arquivo de roterização do sistema, que contém o código de rotas para a implatação e por último o <b>requirements.txt</b> que contém todas bibliotecas necessárias para rodar a aplicação.
