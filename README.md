@@ -1,9 +1,7 @@
 <h1>Portifólio de Matheus Albernaz</h1><br>
 <p>Este repositório é destinado ao desenvolvimento de um portifólio de <b>Matheus Augusto de Jesus Albernaz</b> para a disciplina do curso de Desenvolvimento de Software Multiplataforma, da <b>FATEC Professor Jessen Vidal</b>, em São José dos Campos, interior de São Paulo.</p>
 
-<p>Esta aplicação já está implantada no Heroku, para visualizar acesse https://portifoliomts.herokuapp.com/ .</p>
-
-Ou acesse pelo GitHub Pages https://matheusajesus.github.io/repo_portifolio_design-digital/
+Acesse pelo GitHub Pages https://matheusajesus.github.io/repo_portifolio_design-digital/
 
 <h2>Estrutura de pastas</h2>
 <p>Esta é a estrutura de pastas atual, que possibilita a implatação no Heroku, mas também possibilita rodar a aplicação localmente.</p> 
